@@ -1,0 +1,13 @@
+.container {
+    background-color: lightslategrey;
+
+    width: 450px;
+    height: 500px;
+    margin-top: 8%;
+    margin-left: 42%;
+    justify-items: center;
+    text-align: center;
+    display: grid;
+    place-items: center;
+    
+}
