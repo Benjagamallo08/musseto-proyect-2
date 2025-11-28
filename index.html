@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div id="div">
+        <div class="container">
+
+              <h1>Login</h1>
+
+            <input type="text"  id="usuariologin" placeholder="Ingrese usuario">
+            
+            <input type="password" id="contraseñalogin" placeholder="Ingrese contraseña">
+
+            <button  class="login"  type="submit" > iniciar sesion</button>
+
+          <a href="" onclick=" visibilidad ('div','div2'); return false;">si no tienes cuenta, haz click aqui</a>
+
+        </div>
+    </div>
+
+    <div hidden id="div2" >
+        <div class="container">
+            <h1>Crear cuenta nueva</h1>
+
+            <input type="text" id="usuarionuevo" placeholder="Usuario nuevo">
+            <input type="text" id="contraseñanuevo" placeholder="Contraseña nueva">
+
+
+            <button class="registro" type="submit">crear cuenta</button>
+        </div>
+
+    </div>
+    
+    
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
